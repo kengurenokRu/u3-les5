@@ -30,9 +30,12 @@
     -webkit-tap-highlight-color: transparent;
     --dark-text: #383a4c;
     --light-text: #fff;
+    --light-text-opacity: rgba(255, 255, 255, 0.8);
     --bg-color: #fff;
     --blue-color: #15a9cb;
+    --blue-color-opacity: rgba(21, 169, 203, 0.8);
     --logo-call-color: #555a7b;
+    --bg-no-color: transparent;
 }
 
 *,
@@ -124,6 +127,25 @@ address {
     margin: 0 auto;
 }
 
-.section {
-    padding: 50px 0;
+.subtitle {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: var(--blue-color, #15a9cb);
+    color: var(--white-color, #fff);
+    border-radius: 50px;
+}
+
+@media (max-width: 1024px) {
+    .subtitle {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    .subtitle {
+        font-size: 20px;
+    }
 }

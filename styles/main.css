@@ -1,0 +1,259 @@
+.main {
+    color: var(--dark-text, #383a4c);
+}
+
+.main__section {
+    padding: 70px 0px;
+}
+
+.main__section_img {
+    color: var(--light-text, #fff);
+    background-image: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
+        url('../assets/img/padding.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.main__text-block {
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+.main__title {
+    margin-bottom: 25px;
+}
+
+.main__subtitle {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.main__text {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 724px;
+    margin: 0 auto;
+}
+
+.main__excellence {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main__number {
+    width: 122px;
+    height: 122px;
+    border-radius: 50%;
+    background-color: var(--blue-color, #15a9cb);
+    color: var(--light-text, #fff);
+    font-size: 57px;
+    font-weight: 500;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main__sub-number {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.main__block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-basis: 196px;
+    align-items: center;
+}
+
+.main__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-no-color, transparent);
+}
+
+.main__title-two {
+    margin-bottom: 17px;
+}
+
+.main__subtitle-two {
+    margin-bottom: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--light-text-opacity);
+}
+
+.main__input-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    margin-bottom: 50px;
+}
+
+.main__input {
+    width: 423px;
+    height: 44px;
+    padding-left: 25px;
+    border-radius: 50px;
+    background-color: var(--bg-no-color, transparent);
+    border: 1px solid var(--light-text, #fff);
+    font-size: 22px;
+}
+
+.main__button {
+    min-height: 48px;
+    min-width: 218px;
+    margin-bottom: 50px;
+}
+
+.main__text-agree {
+    font-size: 20px;
+}
+
+.main__link-agree {
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    color: var(--blue-color-opacity);
+}
+
+@media (max-width: 1024px) {
+    .main__section_img {
+        background-size: cover;
+        background-position: right;
+    }
+
+    .main__title {
+        margin-bottom: 23px;
+    }
+
+    .main__subtitle {
+        font-size: 20px;
+        margin-bottom: 33px;
+    }
+
+    .main__text {
+        font-size: 16px;
+        max-width: 666px;
+    }
+
+    .main__number {
+        width: 104px;
+        height: 104px;
+        border-radius: 50%;
+        font-size: 52px;
+        padding: 22px 0;
+    }
+
+    .main__sub-number {
+        font-size: 18px;
+    }
+
+    .main__block {
+        gap: 26px;
+        flex-basis: 180px;
+    }
+
+    .main__title-two {
+        margin-bottom: 16px;
+    }
+
+    .main__subtitle-two {
+        font-size: 20px;
+    }
+
+    .main__input-block {
+        gap: 20px;
+    }
+
+    .main__input {
+        width: 377px;
+        height: 39px;
+        padding-left: 23px;
+        font-size: 20px;
+    }
+
+    .main__button {
+        margin-bottom: 30px;
+    }
+
+    .main__text-agree {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 320px) {
+    .main__section {
+        padding: 30px 0px;
+    }
+
+    .main__section-top {
+        padding-bottom: 60px;
+    }
+
+    .main__section_img{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main__title {
+        margin-bottom: 15px;
+    }
+
+    .main__subtitle {
+        font-size: 16px;
+        margin-bottom: 26px;
+    }
+
+    .main__text {
+        font-size: 12px;
+        max-width: 290px;
+    }
+
+    .main__excellence {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .main__sub-number {
+        max-width: 180px;
+    }
+
+    .main__title-two {
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+
+    .main__subtitle-two {
+        font-size: 12px;
+        margin-bottom: 35px;
+    }
+
+    .main__input-block {
+        gap: 15px;
+        margin-bottom: 45px;
+    }
+
+    .main__input {
+        width: 289px;
+        height: 28px;
+        padding-left: 18px;
+        font-size: 14px;
+    }
+
+    .main__button {
+        min-width: 174px;
+        min-height: 38px;
+        font-size: 16px;
+    }
+
+    .main__text-agree {
+        font-size: 11px;        
+    }
+}

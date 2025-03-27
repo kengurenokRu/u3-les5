@@ -58,10 +58,7 @@
 
 .header__button {
     min-height: 48px;
-    min-width: 200px;
-    background-color: var(--blue-color, #15a9cb);
-    color: var(--white-color, #fff);
-    border-radius: 50px;
+    min-width: 200px;    
 }
 
 @media (max-width: 1024px) {
