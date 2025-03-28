@@ -36,6 +36,8 @@
     --blue-color-opacity: rgba(21, 169, 203, 0.8);
     --logo-call-color: #555a7b;
     --bg-no-color: transparent;
+    --bg-padding: #2f324b;
+    --bg-author: #2a2c3f;
 }
 
 *,
@@ -138,9 +140,51 @@ address {
     border-radius: 50px;
 }
 
+.phone {
+    font-size: 24px;
+}
+
+.call {
+    font-size: 16px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.call-us {
+    text-align: center;
+}
+
+.call-phone{
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+
 @media (max-width: 1024px) {
     .subtitle {
         font-size: 32px;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .phone {
+        font-size: 21px;
+    }
+
+    .call {
+        font-size: 13px;
+    }
+
+    .menu {
+        margin-bottom: 70px;
     }
 }
 
@@ -148,4 +192,27 @@ address {
     .subtitle {
         font-size: 20px;
     }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .call-us{
+        display: none;
+    }
+
+    .call-phone{
+        display: block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color: var(--logo-call-color, #555a7b);
+        padding: 6px;
+    }
+
+    .menu {
+        margin-bottom: 65px;
+    }
 }
+
+
