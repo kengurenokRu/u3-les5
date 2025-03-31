@@ -38,7 +38,7 @@
     min-width: 200px;
 }
 
-.main {    
+.main {
     color: var(--dark-text, #383a4c);
 }
 
@@ -192,7 +192,7 @@
 
     .main__text_big {
         display: none;
-    }   
+    }
 
     .main__text-container {
         max-width: 780px;
@@ -342,9 +342,9 @@
         font-size: 11px;
     }
 
-    .main__excellence {        
+    .main__excellence {
         flex-direction: column;
-        justify-content: center;        
+        justify-content: center;
         gap: 40px;
     }
 }

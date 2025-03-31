@@ -124,7 +124,7 @@ address {
     transform: scale(0);
 }
 
-.container {    
+.container {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -154,21 +154,21 @@ address {
     text-align: center;
 }
 
-.call-phone{
+.call-phone {
     display: none;
 }
 
 .menu {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
     align-items: center;
 }
-
 
 @media (max-width: 1024px) {
     .subtitle {
         font-size: 32px;
     }
+
     .logo {
         width: 60px;
         height: 60px;
@@ -191,16 +191,17 @@ address {
     .subtitle {
         font-size: 20px;
     }
+
     .logo {
         width: 30px;
         height: 30px;
     }
 
-    .call-us{
+    .call-us {
         display: none;
     }
 
-    .call-phone{
+    .call-phone {
         display: block;
         width: 24px;
         height: 24px;
@@ -213,5 +214,3 @@ address {
         margin-bottom: 65px;
     }
 }
-
-
