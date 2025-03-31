@@ -1,11 +1,6 @@
-.footer {
-    max-width: 100%;
-    background-color: var(--bg-padding, #2f324b);
-
-}
-
-.footer__menu {
+.footer__container {
     padding: 45px 200px;
+    background-color: var(--bg-padding, #2f324b);
 }
 
 .footer__logo {
@@ -34,12 +29,12 @@
 }
 
 @media (max-width: 1024px) {
-    .footer__menu {
+    .footer__container {
         padding: 49px 30px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
 
     .footer__menu {
         padding: 25px 15px;
@@ -55,5 +50,9 @@
         background-color: var(--bg-author, #2a2c3f);
         font-size: 12px;
         text-align: center;
+    }
+
+    .footer__container {
+        padding: 0;
     }
 }

@@ -124,7 +124,7 @@ address {
     transform: scale(0);
 }
 
-.container {
+.container {    
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -160,8 +160,7 @@ address {
 
 .menu {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 120px;
+    justify-content: space-between;    
     align-items: center;
 }
 
@@ -188,7 +187,7 @@ address {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 480px) {
     .subtitle {
         font-size: 20px;
     }

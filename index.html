@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <nav class="menu">
+    <header class="header">
+        <div class="container header__container">
+            <nav class="menu header__menu">
                 <img class="logo" src="./assets/img/logo.svg" alt="Логотип компании">
                 <adress class="call-us">
                     <a class="phone" href="tel:79625561234">+7 (962) 556 - 1234</a>
@@ -21,22 +21,29 @@
                     <img class="logo-phone" src="./assets/img/phone.svg" alt="Логотип компании">
                 </a>
             </nav>
-            <div class="header__text-container">
-                <h1 class="header__title">Заголовок c уникальным торговым предложение по системе 4U</h1>
-                <p class="header__text header__text_big">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру,
-                    верстальщику,
-                    вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
-                    языке, а
-                    начинающему.</p>
-                <p class="header__text header__text_small">Описания предлжения компании. Сайт рыбатекст поможет
-                    дизайнеру,
-                    верстальщику,
-                    вебмастеру сгенерировать несколько абзацев более.</p>
-                <button class="button header__button">Подробнее</button>
+        </div>
+    </header>
+    <main class="main">
+        <section>
+            <div class="container main__container-header">
+                <div class="main__text-container">
+                    <h1 class="main__title-main">Заголовок c уникальным торговым предложение по системе 4U</h1>
+                    <p class="main__text-header main__text_big">Описания предлжения компании. Сайт рыбатекст поможет
+                        дизайнеру,
+                        верстальщику,
+                        вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском
+                        языке, а
+                        начинающему.</p>
+                    <p class="main__text-header main__text_small">Описания предлжения компании. Сайт рыбатекст поможет
+                        дизайнеру,
+                        верстальщику,
+                        вебмастеру сгенерировать несколько абзацев более.</p>
+                    <button class="button main__button-header">Подробнее</button>
+                </div>
             </div>
-        </header>
-        <main class="main">
-            <section class="main__section main__section-top">
+        </section>
+        <section>
+            <div class="container main__container main-container-top">
                 <div class="main__text-block">
                     <h2 class="subtitle main__title">Уникальный заголовок для преимущества компании</h2>
                     <p class="main__subtitle">О нас</p>
@@ -63,8 +70,10 @@
                         <p class="main__sub-number">Четвертое целевое преимущество</p>
                     </div>
                 </div>
-            </section>
-            <section class="main__section main__section_img">
+            </div>
+        </section>
+        <section>
+            <div class="container main__container main__container_img">
                 <form class="main__form">
                     <h2 class="subtitle main__title-two">Остались вопросы?</h2>
                     <p class="main__subtitle-two">Оставьте номер телефона, и мы перезвоним вам</p>
@@ -77,9 +86,11 @@
                     <p class="main__text-agree">Я даю своё <span class="main__link-agree">согласие</span> на обработку
                         моих персональных данных.</p>
                 </form>
-            </section>
-        </main>
-        <footer class="footer">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
             <nav class="menu footer__menu">
                 <figure class="footer__logo">
                     <img class="logo" src="./assets/img/logo.svg" alt="Логотип компании">
@@ -95,8 +106,8 @@
                 </a>
             </nav>
             <p class="footer_author-big">Сделано в Ивановым Иваном</p>
-        </footer>
-    </div>
+        </div>
+    </footer>
 </body>
 
 </html>
