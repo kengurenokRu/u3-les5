@@ -54,7 +54,6 @@ body {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 20px;
-    line-height: 141%;
     color: var(--light-text, #fff);
     background-color: var(--bg-color, #fff);
 }
@@ -126,7 +125,7 @@ address {
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 1260px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -187,7 +186,7 @@ address {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 480px) {
     .container {
         padding: 0 15px;
     }
