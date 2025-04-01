@@ -162,6 +162,10 @@
 }
 
 @media (max-width: 1024px) {
+    .main__section-top {
+        padding: 156px 0 70px 0;
+    }
+
     .main__text-container {
         max-width: 755px;
     }
@@ -233,6 +237,11 @@
 }
 
 @media (max-width: 480px) {
+
+    .main__section-top {
+        padding: 110px 0 65px 0;
+    }
+
     .main__text-container {
         max-width: 290px;
     }
