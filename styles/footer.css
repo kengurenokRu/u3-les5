@@ -1,5 +1,4 @@
-.footer__container {
-    padding: 45px 200px;
+.footer {
     background-color: var(--bg-padding, #2f324b);
 }
 
@@ -25,20 +24,13 @@
 }
 
 .footer__menu {
-    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
 }
 
-@media (max-width: 1024px) {
-    .footer__container {
-        padding: 49px 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .footer__menu {
-        padding: 25px 15px;
-    }
-
+@media (max-width: 650px) {
     .footer_author {
         display: none;
     }
@@ -53,5 +45,9 @@
 
     .footer__container {
         padding: 0;
+    }
+
+    .footer__menu {
+        padding: 0 15px;
     }
 }
