@@ -131,12 +131,13 @@ address {
 }
 
 .section {
-    padding: 70px 0;
+    padding: 73px 0;
 }
 
 .subtitle {
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 500;
+    padding-right: 2px;
 }
 
 .button {
@@ -149,7 +150,8 @@ address {
 
 .phone {
     display: block;
-    font-size: 24px;
+    font-size: 23.85px;
+    margin-bottom: 7px;
 }
 
 .call {

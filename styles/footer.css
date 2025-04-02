@@ -13,11 +13,13 @@
     font-size: 12px;
     font-weight: 500;
     max-width: 130px;
+    line-height: 150%;
 }
 
 .footer_author {
     font-size: 12px;
     font-weight: 500;
+    padding-right: 7px;
 }
 
 .footer_author-big {
@@ -28,6 +30,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.footer__menu>.call-us{
+padding-right: 2px;
+padding-bottom: 3px;
 }
 
 @media (max-width: 650px) {
